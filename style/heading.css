@@ -1,0 +1,114 @@
+/* heading attribute */
+    /* whole heading */
+    #heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px 0px 22px 0px;
+        text-align: center;
+        border-bottom: 1px solid rgb(178, 177, 177);
+        background-color: white;
+        position: fixed;
+        width: 100%;
+    }
+
+    /* #header{
+        display: grid;
+        grid-template-columns: 400px 1fr 400px;
+    } */
+
+
+    /* 1st section */
+    #heading_logo{
+        padding-left: 30px;
+        display: flex;
+        text-align: center;
+        vertical-align: middle;
+        gap: 28px;
+        align-items:center;
+    }
+
+    #heading_logo i{
+        color: rgb(112, 112, 112);
+    }
+
+
+    #heading_logo_name{
+        display: flex;
+        font-size: 22px;
+    }
+
+    /* 2nd section */
+    #heading_search{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    #heading_search_bar{
+        display: flex;
+        align-items: center;
+    }
+
+    #heading_search_bar input{
+    border-radius: 25px 0px 0px 25px;
+
+    padding: 14px 300px 14px 20px;
+    border: 1px solid  rgb(174, 174, 174);
+    display: flex;
+    align-items: center;
+    /* border-color: rgba(255, 255, 255, 0.08);
+    background-color: black; */
+    }
+
+    
+    #heading_search_bar input::placeholder {
+        color: rgb(112, 112, 112);
+        /* display: flex;
+        vertical-align: middle;
+        align-items: center; */
+    }
+
+    #heading_search_bar i{
+        border: 1px solid rgb(174, 174, 174);
+        padding: 13.1px 20px;
+        margin-left: -1px;
+        border-radius: 0px 25px 25px 0px;
+        background-color: white;
+        color: rgb(112, 112, 112);
+    }
+
+    #heading_search #microphone{
+        border: 1px solid rgb(174, 174, 174);
+        padding: 11px 13px;
+        border-radius: 25px;
+        color:  rgb(80, 80, 80);
+        background-color: white;
+        /* border-color: white; */
+    }
+
+
+    /* 3rd section */
+    #heading_channel{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding-right: 30px;
+    }
+
+    
+    #heading_channel i{
+        font-size: 19px;
+        color: rgb(101, 101, 101);
+
+    }
+
+
+    #heading_channel button{
+        background-color: white;
+        padding: 10px 25px;
+        border-radius: 50px;
+        border: 1px solid rgb(174, 174, 174);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+        color: rgb(68, 68, 68);
+    }
